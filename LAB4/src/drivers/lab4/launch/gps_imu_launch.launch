@@ -1,0 +1,9 @@
+<launch>
+
+<arg name='port_imu'/>
+<node pkg="imu_driver" type="driver.py" name="imu_driver" output="screen" args="$(arg port_imu)"/>
+
+<arg name='port_gps'/>
+<node pkg="gps_driver" type="driver.py" name="driver" output="screen" args="$(arg port_gps)"/>
+
+</launch>

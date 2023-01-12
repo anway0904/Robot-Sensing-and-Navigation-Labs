@@ -1,0 +1,4 @@
+matplotlib
+csv
+numpy
+math
